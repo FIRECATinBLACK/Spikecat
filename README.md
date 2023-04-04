@@ -47,7 +47,11 @@ POTENTIAL FUTURE FEATURES:
 -------------------------------------
 
 BUGS & ISSUES:
-- None
+- Sometimes bodyparts start to disappear and generally physics objects stop rendering correctly. Seems to be a rare occurance, if caused once will happen frequently until game restarts. Cause unknown, assumed to be either with lung issues (jumping in water) or slugbase itself. Needs further investigation
+- Sometimes the menu art goes black. Cause unknown, needs further investigation
+
+FIXED BUGS:
+- Breath bar doesnt fill entirely
 
 -------------------------------------
 
