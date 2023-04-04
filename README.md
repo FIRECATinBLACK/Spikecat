@@ -13,6 +13,8 @@ DONE:
 - Less breath = Less Speed
 - Custom Waterboost cooldown
 - Modified Slugbase stats
+- Slugbase coloring
+- Custom Diet (may need balancing)
 
 
 IN PROGRESS:
@@ -22,6 +24,7 @@ IN PROGRESS:
 - Bubble weed on land
 - Update ingame art
 - Add Arena Icons and Cutscenes
+- Can maul + Backspear
 
 TO DO:
 - Adjust Water in all regions
@@ -37,6 +40,7 @@ TO DO:
 
 
 POTENTIAL FUTURE FEATURES:
+- Config Menu
 - Start in the gate from OE to SB, intro cutscene of unlocking the gate. Player regains control in SB
 - Less breath = Slugcat color change
 - Make world changes Spike exclusive
