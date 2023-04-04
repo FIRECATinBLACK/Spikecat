@@ -8,14 +8,14 @@ TABLE OF CONTENTS:
 - How to use mod
 ----------------------
 
-Done:
+DONE:
 - Reversed Breath
 - Less breath = Less Speed
 - Custom Waterboost cooldown
 - Modified Slugbase stats
 
 
-In Progress:
+IN PROGRESS:
 - Adjust Water to SU
 - Change Appearance of SU
 - Lizard species reputation system
@@ -23,7 +23,7 @@ In Progress:
 - Update ingame art
 - Add Arena Icons and Cutscenes
 
-To Do:
+TO DO:
 - Adjust Water in all regions
 - Change appearance of all regions (near water)
 - Add more creature dens near new water
@@ -36,7 +36,7 @@ To Do:
 - Change Spike's Tail lenght and width
 
 
-Potential Future Features:
+POTENTIAL FUTURE FEATURES:
 - Start in the gate from OE to SB, intro cutscene of unlocking the gate. Player regains control in SB
 - Less breath = Slugcat color change
 - Make world changes Spike exclusive
@@ -46,12 +46,12 @@ Potential Future Features:
 
 -------------------------------------
 
-Bugs & Issues:
+BUGS & ISSUES:
 - None
 
 -------------------------------------
 
-How to use files:
+HOW TO USE FILES:
 1) Download "mod" folder
 2) Move "mod" folder into: C:\Program Files (x86)\Steam\steamapps\common\Rain World\RainWorld_Data\StreamingAssets\mods
 3) Rename "mod" folder to "spikecat"
