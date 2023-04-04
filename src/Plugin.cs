@@ -94,18 +94,22 @@ namespace spikecat
             if (LungIAir.TryGet(self, out float[] inf))
             {
                 //bugs to fix
-                //#breath bar doesnt completely fill#//
+                //#none, breathmeter can be full underwater now#//
 
-                //there could be more bugs
+                
+                //speed dependent on amount of air
+                self.slugcatStats.runspeedFac = Mathf.Lerp(inf[2], inf[3], Mathf.InverseLerp(0, 0.9f, self.airInLungs));
+                self.slugcatStats.poleClimbSpeedFac = (Mathf.Lerp(inf[2], inf[3], Mathf.InverseLerp(0, 0.9f, self.airInLungs))) * 0.75f;
+                self.slugcatStats.corridorClimbSpeedFac = (Mathf.Lerp(inf[2], inf[3], Mathf.InverseLerp(0, 0.9f, self.airInLungs))) * 0.75f;
 
 
                 //changing LungUpdate()
 
-                if (self.firstChunk.submersion > 0.9f && !self.room.game.setupValues.invincibility && !self.chatlog && self.submerged)
+                if (self.firstChunk.submersion > 0.9f && self.submerged)
                 {
-                    if (self.airInLungs >= 0.89f)
+                    if (self.airInLungs >= 1)
                     {
-                        self.airInLungs = 0.89f;
+                        self.airInLungs = 1;
                         self.lungsExhausted = false;
                     }
                     else
@@ -113,11 +117,26 @@ namespace spikecat
 
 
                         self.airInLungs += (1f / (!self.lungsExhausted ? 240 : 60)) * inf[1];
+
+                    }
+
+                    if (self.airInLungs >= 0.1f)
+                    {
+                        self.waterJumpDelay = Mathf.Clamp(self.waterJumpDelay, self.waterJumpDelay, Mathf.RoundToInt(inf[4]));
+                    }
+                    else
+                    {
+
+                        self.waterJumpDelay++;
                     }
 
                 }
                 else //not underwater
                 {
+
+
+
+
 
                     self.airInLungs -= (1f / (!self.lungsExhausted ? 240 : 60)) * Mathf.Lerp(4, 4.5f, inf[0]);
 
@@ -131,12 +150,22 @@ namespace spikecat
                             self.Die();
                         }
                     }
+                    else
+                    {
+                        if (self.airInLungs < 0.15f)
+                        {
+
+                            self.Blink(5);
+                        }
+                    }
+
 
                     if (self.airInLungs >= 0.89f)
                     {
                         self.airInLungs = 0.89f;
                         self.lungsExhausted = false;
                     }
+
                 }
 
 

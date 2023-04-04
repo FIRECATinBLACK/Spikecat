@@ -5,15 +5,21 @@
 	"features": {
 		"color": "F4CFC7",
 		"custom_colors": [
-			{"name": "Body", "story": "F4CFC7"},
-			{"name": "Eyes", "story": "B6064E"},
+			{
+				"name": "Body",
+				"story": "F4CFC7"
+			},
+			{
+				"name": "Eyes",
+				"story": "B6064E"
+			}
 		],
 		"spikecat/super_jump": 0.1,
 		"spikecat/explode_on_death": true,
 		"back_spear": true,
 		"can_maul": true,
 		"maul_damage": 3,
-		"spikecat/infAir": [ 0.05, 1.5 ],
+		"spikecat/infAir": [ 0.05, 1.5, 0.25, 1.5, 10 ],
 		"food_min": 6,
 		"food_max": 9,
 		"world_state": "rivulet",
@@ -33,7 +39,7 @@
 		"diet": {
 			"corpses": 1,
 			"meat": 0.5,
-			"plants": -1,
+			"plants": -1
 		}
 	}
 }
