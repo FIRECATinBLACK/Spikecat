@@ -19,7 +19,7 @@ DONE:
 
 
 IN PROGRESS:
-- Adjust Water to SU
+- Adjust Water of SU
 - Change Appearance of SU
 - Lizard species reputation system
 - Bubble weed on land
