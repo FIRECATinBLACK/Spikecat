@@ -1,0 +1,39 @@
+{
+	"id": "spikecat",
+	"name": "Spike",
+	"description": "Funny Albino Watercat go brrr<LINE>second line",
+	"features": {
+		"color": "F4CFC7",
+		"custom_colors": [
+			{"name": "Body", "story": "F4CFC7"},
+			{"name": "Eyes", "story": "B6064E"},
+		],
+		"spikecat/super_jump": 0.1,
+		"spikecat/explode_on_death": true,
+		"back_spear": true,
+		"can_maul": true,
+		"maul_damage": 3,
+		"spikecat/infAir": [ 0.05, 1.5 ],
+		"food_min": 6,
+		"food_max": 9,
+		"world_state": "rivulet",
+		"auto_grab_batflies": false,
+		"throw_skill": 2,
+		"select_menu_scene": "slugcat_spikecat",
+		"select_menu_scene_ascended": "ghost_spikecat",
+		"sleep_scene": "sleep_spikecat",
+		"spikecat/mean_lizards": 2.0,
+		"karma": 2,
+		"weight": 0.7,
+		"loudness": 3,
+		"walk_speed": 1,
+		"guide_overseer": 4,
+		"cycle_length_min": 8,
+		"cycle_length_max": 20,
+		"diet": {
+			"corpses": 1,
+			"meat": 0.5,
+			"plants": -1,
+		}
+	}
+}

@@ -1,0 +1,9 @@
+﻿{
+	"id": "spikecat",
+	"name": "The Spikecat",
+	"version": "0.1.0",
+	"authors": "FIRECATinBLACK",
+	"description": "Work in progress mod to add Spike the Slugcat to the Game.",
+	"requirements": [ "slime-cubed.slugbase" ],
+	"requirements_names": [ "SlugBase" ]
+}

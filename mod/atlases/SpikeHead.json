@@ -1,0 +1,183 @@
+{"frames": [
+
+{
+	"filename": "SpikeHead.png",
+	"frame": {"x":0,"y":0,"w":486,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":486,"h":24},
+	"sourceSize": {"w":486,"h":24},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "SpikeHeadC0.png",
+	"frame": {"x":486,"y":0,"w":27,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":24},
+	"sourceSize": {"w":27,"h":24},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "SpikeHeadC1.png",
+	"frame": {"x":513,"y":0,"w":27,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":24},
+	"sourceSize": {"w":27,"h":24},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "SpikeHeadC2.png",
+	"frame": {"x":540,"y":0,"w":27,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":24},
+	"sourceSize": {"w":27,"h":24},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "SpikeHeadC3.png",
+	"frame": {"x":567,"y":0,"w":27,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":24},
+	"sourceSize": {"w":27,"h":24},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "SpikeHeadC4.png",
+	"frame": {"x":594,"y":0,"w":27,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":24},
+	"sourceSize": {"w":27,"h":24},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "SpikeHeadC5.png",
+	"frame": {"x":621,"y":0,"w":27,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":24},
+	"sourceSize": {"w":27,"h":24},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "SpikeHeadC6.png",
+	"frame": {"x":648,"y":0,"w":27,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":24},
+	"sourceSize": {"w":27,"h":24},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "SpikeHeadC7.png",
+	"frame": {"x":675,"y":0,"w":27,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":24},
+	"sourceSize": {"w":27,"h":24},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "SpikeHeadC8.png",
+	"frame": {"x":702,"y":0,"w":27,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":24},
+	"sourceSize": {"w":27,"h":24},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "SpikeHeadC9.png",
+	"frame": {"x":729,"y":0,"w":27,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":24},
+	"sourceSize": {"w":27,"h":24},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "SpikeHeadC10.png",
+	"frame": {"x":756,"y":0,"w":27,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":24},
+	"sourceSize": {"w":27,"h":24},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "SpikeHeadC11.png",
+	"frame": {"x":783,"y":0,"w":27,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":24},
+	"sourceSize": {"w":27,"h":24},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "SpikeHeadC12.png",
+	"frame": {"x":810,"y":0,"w":27,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":24},
+	"sourceSize": {"w":27,"h":24},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "SpikeHeadC13.png",
+	"frame": {"x":837,"y":0,"w":27,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":24},
+	"sourceSize": {"w":27,"h":24},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "SpikeHeadC14.png",
+	"frame": {"x":864,"y":0,"w":27,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":24},
+	"sourceSize": {"w":27,"h":24},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "SpikeHeadC15.png",
+	"frame": {"x":891,"y":0,"w":27,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":24},
+	"sourceSize": {"w":27,"h":24},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "SpikeHeadC16.png",
+	"frame": {"x":918,"y":0,"w":27,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":24},
+	"sourceSize": {"w":27,"h":24},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "SpikeHeadC17.png",
+	"frame": {"x":945,"y":0,"w":27,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":24},
+	"sourceSize": {"w":27,"h":24},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "SpikeHead.png",
+	"format": "RGBA8888",
+	"size": {"w":972,"h":24},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:80a2ea2fd19377aeee7b5b5605382e38:3c334af1899bb41c8d753555584502f5:ce82ed0e513d10d36503fb65afb11c34$"
+}
+}

@@ -1,0 +1,16 @@
+{
+	"id": "sleep_spikecat",
+	"scene_folder": "scenes/sleep scene - spikecat",
+	"images": [
+		{ "name": "Background", "pos": [745, 100], "depth": 4.0, "shader": "Basic" },
+		{ "name": "BG Grass",   "pos": [745, 100], "depth": 3.0, "shader": "Basic" },
+		{ "name": "Slugcat",    "pos": [745, 100], "depth": 2.2, "shader": "Basic" },
+		{ "name": "Particles",  "pos": [745, 100], "depth": 1.8, "shader": "Basic" },
+		{ "name": "FG Grass",   "pos": [745, 100], "depth": 1.4, "shader": "Basic" },
+	],
+	"idle_depths": [ 2.8 ],
+	"glow_pos": [688, 484],
+	"mark_pos": [689, 583],
+	"select_menu_pos": [0, 0],
+	"slugcat_depth": 2.8
+}
