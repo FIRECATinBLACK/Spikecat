@@ -15,6 +15,7 @@ DONE:
 - Modified Slugbase stats
 - Slugbase coloring
 - Custom Diet (may need balancing)
+- Can maul + Backspear
 
 
 IN PROGRESS:
@@ -24,7 +25,6 @@ IN PROGRESS:
 - Bubble weed on land
 - Update ingame art
 - Add Arena Icons and Cutscenes
-- Can maul + Backspear
 
 TO DO:
 - Adjust Water in all regions
