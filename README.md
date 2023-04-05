@@ -54,8 +54,8 @@ POTENTIAL FUTURE FEATURES:
 -------------------------------------
 
 BUGS & ISSUES:
-- Sometimes bodyparts start to disappear and generally physics objects stop rendering correctly. Seems to be a rare occurance, if caused once will happen frequently until game restarts. Cause unknown, assumed to be either with lung issues (jumping in water) or slugbase itself. Needs further investigation
-- Sometimes the menu art goes black. Cause unknown, needs further investigation. (Probably caused by airInLungs being 1 or more when underwater since value of airInLungs used for calculating some animations which require this value to be lower than 1).
+- Sometimes bodyparts start to disappear and generally physics objects stop rendering correctly. Seems to be a rare occurance, if caused once will happen frequently until game restarts. Cause unknown, assumed to be either with lung issues (jumping in water) or slugbase itself. Needs further investigation.(Probably caused by airInLungs being 1 or more when underwater since value of airInLungs used for calculating some animations which require this value to be lower than 1).
+- Sometimes the menu art goes black. Cause unknown, needs further investigation. 
 - Rooms SU A24, SU A25, have endless pits with water, where player can swim downwards forever 
 
 FIXED BUGS:
