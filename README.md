@@ -50,6 +50,7 @@ POTENTIAL FUTURE FEATURES:
 - Add Custom Lizard Hybrids
 - Have LTTM give Spike a pearl to unlock the OE gate permanently
 - Custom Pastel Blue Purple Overseer
+- Cycles start at night, end sometime during day
 
 -------------------------------------
 
