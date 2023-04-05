@@ -16,6 +16,7 @@ DONE:
 - Slugbase coloring
 - Custom Diet (may need balancing)
 - Can maul + Backspear
+- Menu & Sleep art (Temp)
 
 
 IN PROGRESS:
@@ -47,7 +48,8 @@ POTENTIAL FUTURE FEATURES:
 - Add spike shooting attack (down + e, takes some breath as penalty, spikes act like spears)
 - Custom Region behind shoreline
 - Add Custom Lizard Hybrids
-- Have moon give Spike a pearl to unlock the OE gate permanently
+- Have LTTM give Spike a pearl to unlock the OE gate permanently
+- Custom Pastel Blue Purple Overseer
 
 -------------------------------------
 
