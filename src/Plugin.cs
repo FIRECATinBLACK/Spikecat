@@ -17,7 +17,7 @@ namespace spikecat
         public static readonly PlayerFeature<float[]> LungIAir = PlayerFloats("spikecat/infAir");
 
 
-
+        public static readonly GameFeature<float> BubbleGrassTime = GameFloat("spikecat/bubblegrasslastingtime");
 
         // Add hooks
         public void OnEnable()
@@ -29,6 +29,7 @@ namespace spikecat
             On.Player.Die += Player_Die;
             On.Lizard.ctor += Lizard_ctor;
             On.Player.LungUpdate += LungAir;
+            On.BubbleGrass.Update += CustomBubbleGrass;
         }
         
         // Load any resources, such as sprites or sounds
@@ -170,6 +171,57 @@ namespace spikecat
 
 
             }
+        }
+
+
+        public void CustomBubbleGrass(On.BubbleGrass.orig_Update orig, BubbleGrass self, bool eu)
+        {
+
+            orig(self, eu);
+
+
+
+            if (BubbleGrassTime.TryGet(self.room.game, out float t))
+            {
+                if (self.grabbedBy.Count > 0 && self.grabbedBy[0].grabber is Player && (self.grabbedBy[0].grabber as Player).airInLungs > 0 && !(self.grabbedBy[0].grabber as Player).submerged)
+                {
+                    Player player = self.grabbedBy[0].grabber as Player;
+
+                    if (self.AbstrBubbleGrass.oxygenLeft > 0)
+                    {
+                        for (int i = 0; i < 2; i++)
+                        {
+                            if (player.grasps[i] != null && player.grasps[i].grabbed is BubbleGrass)
+                            {
+                                (player.graphicsModule as PlayerGraphics).BiteFly(i);
+
+                            }
+                        }
+
+
+                        self.AbstrBubbleGrass.oxygenLeft = Mathf.Max(0f, self.AbstrBubbleGrass.oxygenLeft - 0.0009090909f * t);
+
+                        for (int i = 0; i < self.room.abstractRoom.creatures.Count; i++)
+                        {
+
+
+                            if (self.room.abstractRoom.creatures[i].realizedCreature is Player)
+                            {
+                                player.airInLungs = 1f;
+                            }
+
+                        }
+                    }
+
+                }
+            }
+
+
+
+
+
+
+
         }
 
 
