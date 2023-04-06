@@ -17,13 +17,13 @@ DONE:
 - Custom Diet (may need balancing)
 - Can maul + Backspear
 - Menu & Sleep art (Temp)
+- Bubble weed on land
 
 
 IN PROGRESS:
 - Adjust Water of SU
 - Change Appearance of SU
 - Lizard species reputation system
-- Bubble weed on land
 - Update ingame art
 - Add Arena Icons and Cutscenes
 
