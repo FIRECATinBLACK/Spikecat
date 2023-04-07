@@ -1,12 +1,10 @@
 # Spikecat
 any readme info can go here
 
-----------------------
 # TABLE OF CONTENTS:
 - ToDo List
 - Bugs & Issues
 - How to use mod
-----------------------
 
 # DONE:
 - Reversed Breath
@@ -52,7 +50,6 @@ any readme info can go here
 - Custom Pastel Blue Purple Overseer
 - Cycles start at night, end sometime during day
 
--------------------------------------
 
 # ACTIVE BUGS & ISSUES:
 1) Breath bar doesnt fill entirely (potential fix: change the value at wich it displays as "full" and fades out. Currently that would be 1 wich would cause fixed bug 2 )
@@ -63,7 +60,6 @@ any readme info can go here
 2) Sometimes bodyparts start to disappear and generally physics objects stop rendering correctly. Seems to be a rare occurance, if caused once will happen frequently until game restarts. Cause unknown, assumed to be either with lung issues (jumping in water) or slugbase itself. Needs further investigation.(Probably caused by airInLungs being 1 or more when underwater since value of airInLungs used for calculating some animations which require this value to be lower than 1). 
 |> Fixed by changing the max value of airInLungs to be lower than 1 and more or equal to 0. Currently causes Issue 1
 
--------------------------------------
 
 # HOW TO USE FILES:
 1) Download "mod" folder
