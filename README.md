@@ -65,6 +65,7 @@ any readme info can go here
 
 |> Fixed by changing the max value of airInLungs to be lower than 1 and more or equal to 0. (now 0.95)
 
+---
 
 # HOW TO USE FILES:
 1) Download "mod" folder
