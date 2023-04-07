@@ -52,14 +52,14 @@ any readme info can go here
 
 
 # ACTIVE BUGS & ISSUES:
-3) Sometimes the menu art goes black. Cause unknown, needs further investigation. 
+3  ) Sometimes the menu art goes black. Cause unknown, needs further investigation. 
 
 # FIXED BUGS:
-1) Breath bar doesnt fill entirely (potential fix: change the value at wich it displays as "full" and fades out. Currently that would be 1 wich would cause fixed bug 2 )
+1  ) Breath bar doesnt fill entirely (potential fix: change the value at wich it displays as "full" and fades out. Currently that would be 1 wich would cause fixed bug 
 
 |> fixed by setting airInLungs for issue 2 and the value at wich the bar disappears to 0.95 wich also still works
 
-2) Sometimes bodyparts start to disappear and generally physics objects stop rendering correctly. Seems to be a rare occurance, if caused once will happen frequently until game restarts. Cause unknown, assumed to be either with lung issues (jumping in water) or slugbase itself. Needs further investigation.(Probably caused by airInLungs being 1 or more when underwater since value of airInLungs used for calculating some animations which require this value to be lower than 1). 
+2  ) Sometimes bodyparts start to disappear and generally physics objects stop rendering correctly. Seems to be a rare occurance, if caused once will happen frequently until game restarts. Cause unknown, assumed to be either with lung issues (jumping in water) or slugbase itself. Needs further investigation.(Probably caused by airInLungs being 1 or more when underwater since value of airInLungs used for calculating some animations which require this value to be lower than 1). 
 
 |> Fixed by changing the max value of airInLungs to be lower than 1 and more or equal to 0. (now 0.95)
 
