@@ -2,13 +2,13 @@
 any readme info can go here
 
 ----------------------
-TABLE OF CONTENTS:
+# TABLE OF CONTENTS:
 - ToDo List
 - Bugs & Issues
 - How to use mod
 ----------------------
 
-DONE:
+# DONE:
 - Reversed Breath
 - Less breath = Less Speed
 - Custom Waterboost cooldown
@@ -20,14 +20,14 @@ DONE:
 - Bubble weed on land
 
 
-IN PROGRESS:
+# IN PROGRESS:
 - Adjust Water of SU
 - Change Appearance of SU
 - Lizard species reputation system
 - Update ingame art
 - Add Arena Icons and Cutscenes
 
-TO DO:
+# TO DO:
 - Adjust Water in all regions
 - Change appearance of all regions (near water)
 - Add more creature dens near new water
@@ -40,7 +40,7 @@ TO DO:
 - Change Spike's Tail lenght and width
 
 
-POTENTIAL FUTURE FEATURES:
+# POTENTIAL FUTURE FEATURES:
 - Config Menu
 - Start in the gate from OE to SB, intro cutscene of unlocking the gate. Player regains control in SB
 - Less breath = Slugcat color change
@@ -54,17 +54,18 @@ POTENTIAL FUTURE FEATURES:
 
 -------------------------------------
 
-BUGS & ISSUES:
-- Sometimes bodyparts start to disappear and generally physics objects stop rendering correctly. Seems to be a rare occurance, if caused once will happen frequently until game restarts. Cause unknown, assumed to be either with lung issues (jumping in water) or slugbase itself. Needs further investigation.(Probably caused by airInLungs being 1 or more when underwater since value of airInLungs used for calculating some animations which require this value to be lower than 1).
-- Sometimes the menu art goes black. Cause unknown, needs further investigation. 
+# ACTIVE BUGS & ISSUES:
+1) Breath bar doesnt fill entirely (potential fix: change the value at wich it displays as "full" and fades out. Currently that would be 1 wich would cause fixed bug 2 )
+3) Sometimes the menu art goes black. Cause unknown, needs further investigation. 
 
 
-FIXED BUGS:
-- Breath bar doesnt fill entirely
+# FIXED BUGS:
+2) Sometimes bodyparts start to disappear and generally physics objects stop rendering correctly. Seems to be a rare occurance, if caused once will happen frequently until game restarts. Cause unknown, assumed to be either with lung issues (jumping in water) or slugbase itself. Needs further investigation.(Probably caused by airInLungs being 1 or more when underwater since value of airInLungs used for calculating some animations which require this value to be lower than 1). 
+|> Fixed by changing the max value of airInLungs to be lower than 1 and more or equal to 0. Currently causes Issue 1
 
 -------------------------------------
 
-HOW TO USE FILES:
+# HOW TO USE FILES:
 1) Download "mod" folder
 2) Move "mod" folder into: C:\Program Files (x86)\Steam\steamapps\common\Rain World\RainWorld_Data\StreamingAssets\mods
 3) Rename "mod" folder to "spikecat"
