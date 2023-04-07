@@ -59,6 +59,7 @@ any readme info can go here
 
 |> fixed by setting airInLungs for issue 2 and the value at wich the bar disappears to 0.95 wich also still works
 
+---
 
 2  ) Sometimes bodyparts start to disappear and generally physics objects stop rendering correctly. Seems to be a rare occurance, if caused once will happen frequently until game restarts. Cause unknown, assumed to be either with lung issues (jumping in water) or slugbase itself. Needs further investigation.(Probably caused by airInLungs being 1 or more when underwater since value of airInLungs used for calculating some animations which require this value to be lower than 1). 
 
