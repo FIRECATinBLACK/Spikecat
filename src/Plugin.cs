@@ -108,9 +108,9 @@ namespace spikecat
 
                 if (self.firstChunk.submersion > 0.9f && self.submerged)
                 {
-                    if (self.airInLungs >= 1)
+                    if (self.airInLungs >= 0.85f)
                     {
-                        self.airInLungs = 1;
+                        self.airInLungs = 0.85f;
                         self.lungsExhausted = false;
                     }
                     else
