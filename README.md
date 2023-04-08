@@ -37,6 +37,7 @@ any readme info can go here
 - Make Spike's sprites able to be individually colorable (Main, Face, Spikes, Collar)
 - Add Pearl slot in collar
 - Change Spike's Tail lenght and width
+- Replace all regular leeches with Jungle ones
 
 
 # POTENTIAL FUTURE FEATURES:
@@ -80,3 +81,9 @@ any readme info can go here
 2) Move "mod" folder into: C:\Program Files (x86)\Steam\steamapps\common\Rain World\RainWorld_Data\StreamingAssets\mods
 3) Rename "mod" folder to "spikecat"
 4) Enable the Spikecat mod in RainWorld
+
+---
+small additional noted for worldchanges:
+
+bubbleweed / water needed:
+- Bubbleweed between Drainage and gutter
