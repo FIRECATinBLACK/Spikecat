@@ -26,6 +26,7 @@ any readme info can go here
 - Add Arena Icons and Cutscenes
 
 # TO DO:
+- Add Bubbleweed to all regions
 - Adjust Water in all regions
 - Change appearance of all regions (near water)
 - Add more creature dens near new water
@@ -39,16 +40,19 @@ any readme info can go here
 
 
 # POTENTIAL FUTURE FEATURES:
+- Scavengers can spawn with bubbleweed
 - Config Menu
 - Start in the gate from OE to SB, intro cutscene of unlocking the gate. Player regains control in SB
-- Less breath = Slugcat color change
+- Less breath = Slugcat color change (code could be borrowed from saint)
 - Make world changes Spike exclusive
 - Add spike shooting attack (down + e, takes some breath as penalty, spikes act like spears)
 - Custom Region behind shoreline
-- Add Custom Lizard Hybrids
+- Add Custom Lizards & Hybrids (Yellow / White, Blue / Green, Spikezard, Red / Black)
 - Have LTTM give Spike a pearl to unlock the OE gate permanently
 - Custom Pastel Blue Purple Overseer
 - Cycles start at night, end sometime during day
+- Pearls if in pearl slot emit neuron glow
+- Scav lanterns can be put into pearl slot
 
 
 # ACTIVE BUGS & ISSUES:
