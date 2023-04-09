@@ -83,7 +83,7 @@ This is mostly a big work in progress and **still in its early alpha stages and 
 - Scavengers can spawn with bubbleweed
 - Config Menu
 - Start in the gate from OE to SB, intro cutscene of unlocking the gate. Player regains control in SB
-- Less breath = Slugcat color change (code could be borrowed from saint)
+- Less breath = Slugcat color change (code could be borrowed from saint)![FD53C647-FC73-4DB1-BBE7-80E8CBF59E37](https://user-images.githubusercontent.com/71691122/230785896-ff1590c6-ed68-4dfd-94ec-2e31bc9cf586.png)
 - Make world changes Spike exclusive
 - Add spike shooting attack (down + e, shoots in total 5 spikes up, sideways and inbetween. Takes some breath as penalty, spikes stun like rocks but deal 0.5 damage)
 - Custom Region behind shoreline
