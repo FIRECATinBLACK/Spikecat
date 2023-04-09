@@ -4,7 +4,7 @@
 
 **Play as a new aquatic Slugcat featuring reversed breath mechanics and more. This albinistic Scug is heavily focused on combat and has you constantly on your toes trying to make sure you dont suffocate in this harsh world**
 
---
+---
 
 Welcome to the Github repo of the Rainworld Spikecat mod (name may be subject to change)!
 This is mostly a big work in progress and **still in its early alpha stages and not meant for the average player yet** but we are excited to hopefully bring this mod to the workshop soon!
