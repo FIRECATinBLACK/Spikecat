@@ -11,7 +11,7 @@ Also, this mod uses Downpour content and ***May Contain Rainworld Downpour Spoil
 
 Spike is a Slugcat sent by the iterators beyond the extents of Five pebbles and Looks to the Moons facilities, tasked with assisting any collapsed iterators and acting as a aquatic messenger. However he is soon to make the devastating discovery that it might be already too late to help
 
-Play as a new aquatic Slugcat thats heavily focused on combat and has you constantly on your toes to make sure you dont suffocate 
+Play as a new aquatic Slugcat featuring reversed breath mechanics and more thats heavily focused on combat and has you constantly on your toes trying to make sure you dont suffocate 
 
 ## TABLE OF CONTENTS:
 |> [Done](https://github.com/FIRECATinBLACK/Spikecat#done)
