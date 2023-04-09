@@ -9,12 +9,19 @@ Spike is a Slugcat sent by the iterators beyond the extents of Five pebbles and 
 
 # TABLE OF CONTENTS:
 |> [Done](https://github.com/FIRECATinBLACK/Spikecat#done)
+
 |> [In Progress](https://github.com/FIRECATinBLACK/Spikecat#in-progress)
+
 |> [ToDo List](https://github.com/FIRECATinBLACK/Spikecat#to-do)
+
 |> [Potential Future Features](https://github.com/FIRECATinBLACK/Spikecat#potential-future-features)
+
 |> [Active Bugs & Issues](https://github.com/FIRECATinBLACK/Spikecat#active-bugs--issues)
+
 |> [Fixed Bugs & Issues](https://github.com/FIRECATinBLACK/Spikecat#fixed-bugs)
+
 |> [How to play mod](https://github.com/FIRECATinBLACK/Spikecat#how-to-use-files)
+
 |> [Credits](https://github.com/FIRECATinBLACK/Spikecat#credits)
 
 ## DONE:
@@ -113,3 +120,5 @@ small additional notes for worldchanges:
 
 bubbleweed / water needed: (putting this here for areas I know I'll forget bec I dont usually visit them lmao)
 - [ ] Bubbleweed between Drainage and gutter
+
+:arrow_up: [Back to top of the page](https://github.com/FIRECATinBLACK/Spikecat#spikecat)
