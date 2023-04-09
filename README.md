@@ -1,12 +1,19 @@
 # Spikecat
-any readme info can go here
+Welcome to the Github repo of the Rainworld Spikecat mod (name may be subject to change)!
+This is mostly a big work in progress and still in its early alpha stages but we are excited to hopefully bring this mod to the workshop soon!
+If you are a Playtester or curious early bird please put your issues in a Expected Result, Actual Result, Steps to Replicate, Detailed description / Additional notes format and attach any Console Log, Exception log and Mod log files if possible. Additionally keep any questions, suggestions or other discussions to the appropiate discussion categories.
+
+Also, this mod is created with Downpour content and **May Contain Rainworld Downpour Spoilers**
+
+Spike is a Slugcat sent by the iterators beyond the extents of Five pebbles and Looks to the Moons facilities, tasked with assisting any collapsed iterators and acting as a aquatic messenger. However he is soon to make the devastating discovery that it might be already too late to help
 
 # TABLE OF CONTENTS:
 - ToDo List
 - Bugs & Issues
 - How to use mod
+- Credits
 
-# DONE:
+## DONE:
 - Reversed Breath
 - Less breath = Less Speed
 - Custom Waterboost cooldown
@@ -16,16 +23,19 @@ any readme info can go here
 - Can maul + Backspear
 - Menu & Sleep art (Temp)
 - Bubble weed on land
+- Longer Cycles
 
 
-# IN PROGRESS:
+## IN PROGRESS:
 - Adjust Water of SU
 - Change Appearance of SU
 - Lizard species reputation system
 - Update ingame art
 - Add Arena Icons and Cutscenes
+- Make this README actually look and function better
 
-# TO DO:
+## TO DO:
+- Add a Github issues form and move the issues there, then link them here in a more organized way
 - Add Bubbleweed to all regions
 - Adjust Water in all regions
 - Change appearance of all regions (near water)
@@ -40,7 +50,7 @@ any readme info can go here
 - Replace all regular leeches with Jungle ones
 
 
-# POTENTIAL FUTURE FEATURES:
+## POTENTIAL FUTURE FEATURES:
 - Scavengers can spawn with bubbleweed
 - Config Menu
 - Start in the gate from OE to SB, intro cutscene of unlocking the gate. Player regains control in SB
@@ -50,16 +60,19 @@ any readme info can go here
 - Custom Region behind shoreline
 - Add Custom Lizards & Hybrids (Yellow / White, Blue / Green, Spikezard, Red / Black)
 - Have LTTM give Spike a pearl to unlock the OE gate permanently
-- Custom Pastel Blue Purple Overseer
+- Custom (blueish) Black and Red Overseer
 - Cycles start at night, end sometime during day
 - Pearls if in pearl slot emit neuron glow
 - Scav lanterns can be put into pearl slot
+- Short glimpses of a scripted Rivulet running around SL
+- Collapsed 5p during a Rivulet worldstate
+- Dream Cutscenes showing Spike's story every 5 cycles and a select few at certain shelters
 
 
-# ACTIVE BUGS & ISSUES:
+## ACTIVE BUGS & ISSUES:
 3  ) Sometimes the menu art goes black. Cause unknown, needs further investigation. 
 
-# FIXED BUGS:
+## FIXED BUGS:
 1  ) Breath bar doesnt fill entirely (potential fix: change the value at wich it displays as "full" and fades out. Currently that would be 1 wich would cause fixed bug 
 
 |> fixed by setting airInLungs for issue 2 and the value at wich the bar disappears to 0.95 wich also still works
@@ -82,8 +95,12 @@ any readme info can go here
 3) Rename "mod" folder to "spikecat"
 4) Enable the Spikecat mod in RainWorld
 
+# CREDITS:
+- FIRECATinBLACK - Character and original concept, head of the project
+- OneQuish - Helping with most of the bigger coding tasks
+
 ---
 small additional noted for worldchanges:
 
-bubbleweed / water needed:
+bubbleweed / water needed: (putting this here for areas I know I'll forget bec I dont usually visit them lmao)
 - Bubbleweed between Drainage and gutter
