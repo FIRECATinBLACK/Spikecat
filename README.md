@@ -85,11 +85,12 @@ This is mostly a big work in progress and **still in its early alpha stages and 
 - Start in the gate from OE to SB, intro cutscene of unlocking the gate. Player regains control in SB
 - Less breath = Slugcat color change (code could be borrowed from saint)
 - Make world changes Spike exclusive
-- Add spike shooting attack (down + e, takes some breath as penalty, spikes act like spears)
+- Add spike shooting attack (down + e, shoots in total 5 spikes up, sideways and inbetween. Takes some breath as penalty, spikes stun like rocks but deal 0.5 damage)
 - Custom Region behind shoreline
 - Add Custom Lizards & Hybrids (Yellow / White, Blue / Green, Spikezard, Red / Black)
-- Have LTTM give Spike a pearl to unlock the OE gate permanently
+- Have LTTM edit Spikes or (if lost after initial delivery and rewrite any blank scaveneger pearl) to unlock the OE gate permanently (only once or otherwise again if the pearl has been lost). Code can be borrowed from Spearmasters LTTM and gourmands / artificers 5P
 - Custom (blueish) Black and Red Overseer
+![E346D3F8-F34F-4029-A116-FB606D3A0AA1](https://user-images.githubusercontent.com/71691122/230783869-06e627e1-0eae-4ab3-a6ad-1cc97689185b.png)
 - Cycles start at night, end sometime during day
 - Pearls if in pearl slot emit neuron glow
 - Scav lanterns can be put into pearl slot
