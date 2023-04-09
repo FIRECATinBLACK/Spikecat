@@ -2,6 +2,8 @@
 ![Spikecat Mod thumbnail currently wip](/mod/thumbnail.png)
 (thumbnail currently wip)
 
+**Play as a new aquatic Slugcat featuring reversed breath mechanics and more thats heavily focused on combat and has you constantly on your toes trying to make sure you dont suffocate in this ruined world**
+
 Welcome to the Github repo of the Rainworld Spikecat mod (name may be subject to change)!
 This is mostly a big work in progress and still in its early alpha stages but we are excited to hopefully bring this mod to the workshop soon!
 
@@ -10,8 +12,6 @@ If you are a Playtester or curious early bird please put your [issues](https://g
 Also, this mod uses Downpour content and ***May Contain Rainworld Downpour Spoilers***
 
 Spike is a Slugcat sent by the iterators from far beyond the extents of Five pebbles and Looks to the Moons facilities, tasked with assisting any collapsed iterators and acting as a aquatic messenger. However he is soon to make the devastating discovery that it might be already too late to help
-
-Play as a new aquatic Slugcat featuring reversed breath mechanics and more thats heavily focused on combat and has you constantly on your toes trying to make sure you dont suffocate 
 
 ## TABLE OF CONTENTS:
 |> [Done](https://github.com/FIRECATinBLACK/Spikecat#done)
