@@ -3,7 +3,7 @@ Welcome to the Github repo of the Rainworld Spikecat mod (name may be subject to
 This is mostly a big work in progress and still in its early alpha stages but we are excited to hopefully bring this mod to the workshop soon!
 If you are a Playtester or curious early bird please put your issues in a Expected Result, Actual Result, Steps to Replicate, Detailed description / Additional notes format and attach any Console Log, Exception log and Mod log files if possible. Additionally keep any questions, suggestions or other discussions to the appropiate discussion categories.
 
-Also, this mod is created with Downpour content and **May Contain Rainworld Downpour Spoilers**
+Also, this mod is created with Downpour content and ***May Contain Rainworld Downpour Spoilers***
 
 Spike is a Slugcat sent by the iterators beyond the extents of Five pebbles and Looks to the Moons facilities, tasked with assisting any collapsed iterators and acting as a aquatic messenger. However he is soon to make the devastating discovery that it might be already too late to help
 
@@ -95,17 +95,17 @@ Spike is a Slugcat sent by the iterators beyond the extents of Five pebbles and 
 3) Rename "mod" folder to "spikecat"
 4) Enable the Spikecat mod in RainWorld
 
+self reminder to actually put screenshots here to foolproof it until i make releases
+
 # CREDITS:
 - FIRECATinBLACK - Character and original concept, head of the project and main artist
 - OneQuish - Helping with most of the bigger coding tasks
 ![1955790A-17C2-40E4-82C8-9E46235CE93E](https://user-images.githubusercontent.com/71691122/230751429-910e4572-7066-412e-8383-5f0acd46442c.png)
-
-
-Generally a huge thanks to any Contributers! This project might not be possible without you
+### Generally a huge thanks to any Contributers! This project might not be possible without you
 
 
 ---
-small additional noted for worldchanges:
+small additional notes for worldchanges:
 
 bubbleweed / water needed: (putting this here for areas I know I'll forget bec I dont usually visit them lmao)
 - Bubbleweed between Drainage and gutter
