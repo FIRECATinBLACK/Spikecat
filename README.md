@@ -89,8 +89,8 @@ This is mostly a big work in progress and **still in its early alpha stages and 
 - Custom Region behind shoreline
 - Add Custom Lizards & Hybrids (Yellow / White, Blue / Green, Spikezard, Red / Black)
 - Have LTTM edit Spikes or (if lost after initial delivery and rewrite any blank scaveneger pearl) to unlock the OE gate permanently (only once or otherwise again if the pearl has been lost). Code can be borrowed from Spearmasters LTTM and gourmands / artificers 5P
-- Custom (blueish) Black and Red Overseer
-![F31025F7-AD61-447A-A37D-C2B13FCCF54F](https://user-images.githubusercontent.com/71691122/230783990-1bb35953-0c35-4e22-b631-517253996feb.png)
+- Custom (blueish) Black and Red Overseer![D5ABA700-2623-4BC8-AC7C-BF1FE626B590](https://user-images.githubusercontent.com/71691122/230784485-6becf410-8960-4b71-98f6-f0a10e3bd2e9.png)
+
 - Cycles start at night, end sometime during day
 - Pearls if in pearl slot emit neuron glow
 - Scav lanterns can be put into pearl slot
