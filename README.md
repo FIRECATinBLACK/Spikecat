@@ -9,7 +9,7 @@ If you are a Playtester or curious early bird please put your [issues](https://g
 
 Also, this mod uses Downpour content and ***May Contain Rainworld Downpour Spoilers***
 
-Spike is a Slugcat sent by the iterators beyond the extents of Five pebbles and Looks to the Moons facilities, tasked with assisting any collapsed iterators and acting as a aquatic messenger. However he is soon to make the devastating discovery that it might be already too late to help
+Spike is a Slugcat sent by the iterators from far beyond the extents of Five pebbles and Looks to the Moons facilities, tasked with assisting any collapsed iterators and acting as a aquatic messenger. However he is soon to make the devastating discovery that it might be already too late to help
 
 Play as a new aquatic Slugcat featuring reversed breath mechanics and more thats heavily focused on combat and has you constantly on your toes trying to make sure you dont suffocate 
 
