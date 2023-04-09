@@ -4,14 +4,12 @@
 
 **Play as a new aquatic Slugcat featuring reversed breath mechanics and more. This albinistic Scug is heavily focused on combat and has you constantly on your toes trying to make sure you dont suffocate in this harsh world**
 
----
+--
 
 Welcome to the Github repo of the Rainworld Spikecat mod (name may be subject to change)!
-This is mostly a big work in progress and **still in its early alpha** stages !!And not meant for the average player yet!! but we are excited to hopefully bring this mod to the workshop soon!
+This is mostly a big work in progress and **still in its early alpha stages and not meant for the average player yet** but we are excited to hopefully bring this mod to the workshop soon!
 
-If you are a Playtester or curious early bird please put your [issues](https://github.com/FIRECATinBLACK/Spikecat/issues) in a Expected Result, Actual Result, Steps to Replicate, Detailed description / Additional notes format and attach any Console Log, Exception log and Mod log files if possible. Additionally keep any questions, suggestions or other discussions to the appropiate [discussion](https://github.com/FIRECATinBLACK/Spikecat/discussions) categories.
-
-⚠️ Also, this mod uses downpour content and therefore ***May Contain heavy Rainworld Downpour Spoilers***
+⚠️ Also, this mod uses downpour content and therefore ***May Contain Heavy Rainworld Downpour DLC Spoilers***
 
 
 ## TABLE OF CONTENTS:
@@ -34,7 +32,7 @@ If you are a Playtester or curious early bird please put your [issues](https://g
 
 |> [How to play mod](https://github.com/FIRECATinBLACK/Spikecat#how-to-use-files)
 
-|> [About Spike][https://github.com/FIRECATinBLACK/Spikecat#about-spike)
+|> [About Spike](https://github.com/FIRECATinBLACK/Spikecat#about-spike)
 
 |> [Credits](https://github.com/FIRECATinBLACK/Spikecat#credits)
 
@@ -116,6 +114,14 @@ If you are a Playtester or curious early bird please put your [issues](https://g
 
 |> What caused it was essentially airInLungs being 1 (at this value or higher it messes with the animations for whatever reason) for the sake of the breath bar working correctly, unknowing at the time that 0.95 would be fine too. So whenever Spike would enter a body of water with his breath bar already entirely full (like the head leaving and reentering water within a very short amount of time or hibernating and waking up submerged) he'd first lose his neck and then all other parts of his body except tail also causing all animation of other physics objects and creatures to freeze 
 
+## PLAYTESTING
+
+If you are a Playtester or curious early bird please put your [issues](https://github.com/FIRECATinBLACK/Spikecat/issues) in a Expected Result, Actual Result, Steps to Replicate, Detailed description / Additional notes format and attach any Console Log, Exception log and Mod log files if possible. Additionally keep any questions, suggestions or other discussions to the appropiate [discussion](https://github.com/FIRECATinBLACK/Spikecat/discussions) categories.
+
+Also note that again since this is alpha and beta testing that theres a chance of things breaking, you likely will not have a entirely smooth playing experience
+
+Please refer to the [How to use Files](https://github.com/FIRECATinBLACK/Spikecat#how-to-use-files) section on how to get the most recent files working ingame.
+
 ---
 # GENERAL INFORMATION
 
@@ -125,7 +131,7 @@ If you are a Playtester or curious early bird please put your [issues](https://g
 3) Rename "mod" folder to "spikecat"
 4) Enable the Spikecat mod in RainWorld
 
-self reminder to actually put screenshots here to foolproof it until i make releases
+self reminder to actually put screenshots here to foolproof it until i make releases. Then this will be moved into [Playtesting](https://github.com/FIRECATinBLACK/Spikecat#playtesting) 
 
 ## ABOUT SPIKE:
 
