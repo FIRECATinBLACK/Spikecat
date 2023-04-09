@@ -96,9 +96,11 @@ Spike is a Slugcat sent by the iterators beyond the extents of Five pebbles and 
 4) Enable the Spikecat mod in RainWorld
 
 # CREDITS:
-- FIRECATinBLACK - Character and original concept, head of the project
+- FIRECATinBLACK - Character and original concept, head of the project and main artist
 - OneQuish - Helping with most of the bigger coding tasks
-![B95F58B5-C30E-4CAB-A3C8-A6DEBF30E165](https://user-images.githubusercontent.com/71691122/230751211-f3129398-db44-4400-83a1-7b4a007e7a68.png)
+![C0945A04-F521-44EC-8C53-C73061CA139B](https://user-images.githubusercontent.com/71691122/230751349-f134c290-346b-4cc5-b71f-41c5689024da.png)
+
+Generally a huge thanks to any Contributers! This project might not be possible without you
 
 
 ---
