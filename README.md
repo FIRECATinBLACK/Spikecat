@@ -14,7 +14,7 @@ This is mostly a big work in progress and **still in its early alpha stages and 
 
 ## TABLE OF CONTENTS:
 
-[Development:](https://github.com/FIRECATinBLACK/Spikecat#development)
+### [Development:](https://github.com/FIRECATinBLACK/Spikecat#development)
 
 |> [Done](https://github.com/FIRECATinBLACK/Spikecat#done)
 
@@ -28,7 +28,9 @@ This is mostly a big work in progress and **still in its early alpha stages and 
 
 |> [Fixed Bugs & Issues](https://github.com/FIRECATinBLACK/Spikecat#fixed-bugs)
 
-[General Info:](https://github.com/FIRECATinBLACK/Spikecat#general-information)
+|> [Playtesting](https://github.com/FIRECATinBLACK/Spikecat#playtesting)
+
+### [General Information:](https://github.com/FIRECATinBLACK/Spikecat#general-information)
 
 |> [How to play mod](https://github.com/FIRECATinBLACK/Spikecat#how-to-use-files)
 
