@@ -8,46 +8,50 @@ Also, this mod is created with Downpour content and ***May Contain Rainworld Dow
 Spike is a Slugcat sent by the iterators beyond the extents of Five pebbles and Looks to the Moons facilities, tasked with assisting any collapsed iterators and acting as a aquatic messenger. However he is soon to make the devastating discovery that it might be already too late to help
 
 # TABLE OF CONTENTS:
-- ToDo List
-- Bugs & Issues
-- How to use mod
-- Credits
+|> [Done](https://github.com/FIRECATinBLACK/Spikecat#done)
+|> [In Progress](https://github.com/FIRECATinBLACK/Spikecat#in-progress)
+|> [ToDo List](https://github.com/FIRECATinBLACK/Spikecat#to-do)
+|> [Potential Future Features](https://github.com/FIRECATinBLACK/Spikecat#potential-future-features)
+|> [Active Bugs & Issues](https://github.com/FIRECATinBLACK/Spikecat#active-bugs--issues)
+|> [Fixed Bugs & Issues](https://github.com/FIRECATinBLACK/Spikecat#fixed-bugs)
+|> [How to play mod](https://github.com/FIRECATinBLACK/Spikecat#how-to-use-files)
+|> [Credits](https://github.com/FIRECATinBLACK/Spikecat#credits)
 
 ## DONE:
-- Reversed Breath
-- Less breath = Less Speed
-- Custom Waterboost cooldown
-- Modified Slugbase stats
-- Slugbase coloring
-- Custom Diet (may need balancing)
-- Can maul + Backspear
-- Menu & Sleep art (Temp)
-- Bubble weed on land
-- Longer Cycles
+- [x] Reversed Breath
+- [x] Less breath = Less Speed
+- [x] Custom Waterboost cooldown
+- [x] Modified Slugbase stats
+- [x] Slugbase coloring
+- [x] Custom Diet (may need balancing)
+- [x] Can maul + Backspear
+- [x] Menu & Sleep art (Temp)
+- [x] Bubble weed on land
+- [x] Longer Cycles
 
 
 ## IN PROGRESS:
-- Adjust Water of SU
-- Change Appearance of SU
-- Lizard species reputation system
-- Update ingame art
-- Add Arena Icons and Cutscenes
-- Make this README actually look and function better
+- [ ] Adjust Water of SU
+- [ ] Change Appearance of SU
+- [ ] Lizard species reputation system
+- [ ] Update ingame art
+- [ ] Add Arena Icons and Cutscenes
+- [ ] Make this README actually look and function better
 
 ## TO DO:
-- Add a Github issues form and move the issues there, then link them here in a more organized way
-- Add Bubbleweed to all regions
-- Adjust Water in all regions
-- Change appearance of all regions (near water)
-- Add more creature dens near new water
-- Modify Creature Spawns in all regions
-- Modify Iterator text
-- Make Spike start with Mark of Communication
-- Change Spike's Sprites
-- Make Spike's sprites able to be individually colorable (Main, Face, Spikes, Collar)
-- Add Pearl slot in collar
-- Change Spike's Tail lenght and width
-- Replace all regular leeches with Jungle ones
+- [ ] Add a Github issues form and move the issues there, then link them here in a more organized way
+- [ ] Add Bubbleweed to all regions
+- [ ] Adjust Water in all regions
+- [ ] Change appearance of all regions (near water)
+- [ ] Add more creature dens near new water
+- [ ] Modify Creature Spawns in all regions
+- [ ] Modify Iterator text
+- [ ] Make Spike start with Mark of Communication
+- [ ] Change Spike's Sprites
+- [ ] Make Spike's sprites able to be individually colorable (Main, Face, Spikes, Collar)
+- [ ] Add Pearl slot in collar
+- [ ] Change Spike's Tail lenght and width
+- [ ] Replace all regular leeches with Jungle ones
 
 
 ## POTENTIAL FUTURE FEATURES:
@@ -98,8 +102,8 @@ Spike is a Slugcat sent by the iterators beyond the extents of Five pebbles and 
 self reminder to actually put screenshots here to foolproof it until i make releases
 
 # CREDITS:
-- FIRECATinBLACK - Character and original concept, head of the project and main artist
-- OneQuish - Helping with most of the bigger coding tasks
+- @FIRECATinBLACK - Character and original concept, head of the project and main artist
+- @OneQuish - Helping with most of the bigger coding tasks
 ![1955790A-17C2-40E4-82C8-9E46235CE93E](https://user-images.githubusercontent.com/71691122/230751429-910e4572-7066-412e-8383-5f0acd46442c.png)
 ### Generally a huge thanks to any Contributers! This project might not be possible without you
 
@@ -108,4 +112,4 @@ self reminder to actually put screenshots here to foolproof it until i make rele
 small additional notes for worldchanges:
 
 bubbleweed / water needed: (putting this here for areas I know I'll forget bec I dont usually visit them lmao)
-- Bubbleweed between Drainage and gutter
+- [ ] Bubbleweed between Drainage and gutter
