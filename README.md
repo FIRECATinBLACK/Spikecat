@@ -11,7 +11,7 @@ This is mostly a big work in progress and **still in its early alpha** stages !!
 
 If you are a Playtester or curious early bird please put your [issues](https://github.com/FIRECATinBLACK/Spikecat/issues) in a Expected Result, Actual Result, Steps to Replicate, Detailed description / Additional notes format and attach any Console Log, Exception log and Mod log files if possible. Additionally keep any questions, suggestions or other discussions to the appropiate [discussion](https://github.com/FIRECATinBLACK/Spikecat/discussions) categories.
 
-Also, this mod uses Downpour content and ***May Contain Rainworld Downpour Spoilers***
+⚠️ Also, this mod uses Downpour content and ***May Contain Rainworld Downpour Spoilers***
 
 Spike is a Slugcat sent by the iterators from far beyond the extents of Five pebbles and Looks to the Moons facilities, tasked with assisting any collapsed iterators and acting as a aquatic messenger. However he is soon to make the devastating discovery that it might be already too late to help
 
