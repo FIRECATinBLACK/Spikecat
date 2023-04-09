@@ -7,7 +7,7 @@
 ---
 
 Welcome to the Github repo of the Rainworld Spikecat mod (name may be subject to change)!
-This is mostly a big work in progress and still in its early alpha stages but we are excited to hopefully bring this mod to the workshop soon!
+This is mostly a big work in progress and **still in its early alpha** stages !!And not meant for the average player yet!! but we are excited to hopefully bring this mod to the workshop soon!
 
 If you are a Playtester or curious early bird please put your [issues](https://github.com/FIRECATinBLACK/Spikecat/issues) in a Expected Result, Actual Result, Steps to Replicate, Detailed description / Additional notes format and attach any Console Log, Exception log and Mod log files if possible. Additionally keep any questions, suggestions or other discussions to the appropiate [discussion](https://github.com/FIRECATinBLACK/Spikecat/discussions) categories.
 
