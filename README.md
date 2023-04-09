@@ -2,7 +2,7 @@
 ![Spikecat Mod thumbnail currently wip](/mod/thumbnail.png)
 (thumbnail currently wip)
 
-**Play as a new aquatic Slugcat featuring reversed breath mechanics and more. This albinistic Scug is heavily focused on combat and has you constantly on your toes trying to make sure you dont suffocate in this ruined world**
+**Play as a new aquatic Slugcat featuring reversed breath mechanics and more. This albinistic Scug is heavily focused on combat and has you constantly on your toes trying to make sure you dont suffocate in this harsh world**
 
 ---
 
