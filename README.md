@@ -1,4 +1,5 @@
-# Spikecat
+# Spikecat Rainworld Mod
+/mod/thumbnail.png
 Welcome to the Github repo of the Rainworld Spikecat mod (name may be subject to change)!
 This is mostly a big work in progress and still in its early alpha stages but we are excited to hopefully bring this mod to the workshop soon!
 If you are a Playtester or curious early bird please put your issues in a Expected Result, Actual Result, Steps to Replicate, Detailed description / Additional notes format and attach any Console Log, Exception log and Mod log files if possible. Additionally keep any questions, suggestions or other discussions to the appropiate discussion categories.
@@ -7,7 +8,7 @@ Also, this mod is created with Downpour content and ***May Contain Rainworld Dow
 
 Spike is a Slugcat sent by the iterators beyond the extents of Five pebbles and Looks to the Moons facilities, tasked with assisting any collapsed iterators and acting as a aquatic messenger. However he is soon to make the devastating discovery that it might be already too late to help
 
-# TABLE OF CONTENTS:
+## TABLE OF CONTENTS:
 |> [Done](https://github.com/FIRECATinBLACK/Spikecat#done)
 
 |> [In Progress](https://github.com/FIRECATinBLACK/Spikecat#in-progress)
@@ -100,7 +101,7 @@ Spike is a Slugcat sent by the iterators beyond the extents of Five pebbles and 
 
 ---
 
-# HOW TO USE FILES:
+## HOW TO USE FILES:
 1) Download "mod" folder
 2) Move "mod" folder into: C:\Program Files (x86)\Steam\steamapps\common\Rain World\RainWorld_Data\StreamingAssets\mods
 3) Rename "mod" folder to "spikecat"
@@ -108,7 +109,7 @@ Spike is a Slugcat sent by the iterators beyond the extents of Five pebbles and 
 
 self reminder to actually put screenshots here to foolproof it until i make releases
 
-# CREDITS:
+## CREDITS:
 - @FIRECATinBLACK - Character and original concept, head of the project and main artist
 - @OneQuish - Helping with most of the bigger coding tasks
 ![1955790A-17C2-40E4-82C8-9E46235CE93E](https://user-images.githubusercontent.com/71691122/230751429-910e4572-7066-412e-8383-5f0acd46442c.png)
@@ -123,4 +124,4 @@ bubbleweed / water needed: (putting this here for areas I know I'll forget bec I
 
 ---
 
-:arrow_up: [Back to top of the page](https://github.com/FIRECATinBLACK/Spikecat#spikecat)
+:arrow_up: [Back to top of the page](https://github.com/FIRECATinBLACK/Spikecat#spikecat-rainworld-mod)
