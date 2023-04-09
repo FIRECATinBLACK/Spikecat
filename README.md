@@ -98,6 +98,8 @@ Spike is a Slugcat sent by the iterators beyond the extents of Five pebbles and 
 # CREDITS:
 - FIRECATinBLACK - Character and original concept, head of the project
 - OneQuish - Helping with most of the bigger coding tasks
+![B95F58B5-C30E-4CAB-A3C8-A6DEBF30E165](https://user-images.githubusercontent.com/71691122/230751211-f3129398-db44-4400-83a1-7b4a007e7a68.png)
+
 
 ---
 small additional noted for worldchanges:
