@@ -11,11 +11,13 @@ This is mostly a big work in progress and **still in its early alpha** stages !!
 
 If you are a Playtester or curious early bird please put your [issues](https://github.com/FIRECATinBLACK/Spikecat/issues) in a Expected Result, Actual Result, Steps to Replicate, Detailed description / Additional notes format and attach any Console Log, Exception log and Mod log files if possible. Additionally keep any questions, suggestions or other discussions to the appropiate [discussion](https://github.com/FIRECATinBLACK/Spikecat/discussions) categories.
 
-⚠️ Also, this mod uses Downpour content and ***May Contain Rainworld Downpour Spoilers***
+⚠️ Also, this mod uses downpour content and therefore ***May Contain heavy Rainworld Downpour Spoilers***
 
-Spike is a Slugcat sent by the iterators from far beyond the extents of Five pebbles and Looks to the Moons facilities, tasked with assisting any collapsed iterators and acting as a aquatic messenger. However he is soon to make the devastating discovery that it might be already too late to help
 
 ## TABLE OF CONTENTS:
+
+[Development:](https://github.com/FIRECATinBLACK/Spikecat#development)
+
 |> [Done](https://github.com/FIRECATinBLACK/Spikecat#done)
 
 |> [In Progress](https://github.com/FIRECATinBLACK/Spikecat#in-progress)
@@ -28,9 +30,17 @@ Spike is a Slugcat sent by the iterators from far beyond the extents of Five peb
 
 |> [Fixed Bugs & Issues](https://github.com/FIRECATinBLACK/Spikecat#fixed-bugs)
 
+[General Info:](https://github.com/FIRECATinBLACK/Spikecat#general-information)
+
 |> [How to play mod](https://github.com/FIRECATinBLACK/Spikecat#how-to-use-files)
 
+|> [About Spike][https://github.com/FIRECATinBLACK/Spikecat#about-spike)
+
 |> [Credits](https://github.com/FIRECATinBLACK/Spikecat#credits)
+
+---
+
+# DEVELOPMENT
 
 ## DONE:
 - [x] Reversed Breath
@@ -107,6 +117,7 @@ Spike is a Slugcat sent by the iterators from far beyond the extents of Five peb
 |> What caused it was essentially airInLungs being 1 (at this value or higher it messes with the animations for whatever reason) for the sake of the breath bar working correctly, unknowing at the time that 0.95 would be fine too. So whenever Spike would enter a body of water with his breath bar already entirely full (like the head leaving and reentering water within a very short amount of time or hibernating and waking up submerged) he'd first lose his neck and then all other parts of his body except tail also causing all animation of other physics objects and creatures to freeze 
 
 ---
+# GENERAL INFORMATION
 
 ## HOW TO USE FILES:
 1) Download "mod" folder
@@ -115,6 +126,10 @@ Spike is a Slugcat sent by the iterators from far beyond the extents of Five peb
 4) Enable the Spikecat mod in RainWorld
 
 self reminder to actually put screenshots here to foolproof it until i make releases
+
+## ABOUT SPIKE:
+
+give me some time to actually write something
 
 ## CREDITS:
 - @FIRECATinBLACK - Character and original concept, head of the project and main artist
