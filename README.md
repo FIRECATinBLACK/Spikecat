@@ -36,7 +36,7 @@ This is mostly a big work in progress and **still in its early alpha stages and 
 
 |> [About Spike](https://github.com/FIRECATinBLACK/Spikecat#about-spike)
 
-|> [Credits](https://github.com/FIRECATinBLACK/Spikecat#credits)
+|> [Credits & Contributers](https://github.com/FIRECATinBLACK/Spikecat#credits-contributers)
 
 ---
 
@@ -139,7 +139,7 @@ self reminder to actually put screenshots here to foolproof it until i make rele
 
 give me some time to actually write something
 
-## CREDITS:
+## CREDITS & Contributers:
 - @FIRECATinBLACK - Character and original concept, head of the project and main artist
 - @OneQuish - Helping with most of the bigger coding tasks
 ![1955790A-17C2-40E4-82C8-9E46235CE93E](https://user-images.githubusercontent.com/71691122/230751429-910e4572-7066-412e-8383-5f0acd46442c.png)
