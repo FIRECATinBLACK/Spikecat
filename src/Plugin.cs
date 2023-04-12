@@ -137,35 +137,38 @@ namespace spikecat
 
 
 
-
-
-                    self.airInLungs -= (1f / (!self.lungsExhausted ? 240 : 60)) * Mathf.Lerp(4, 4.5f, inf[0]);
-
-                    if (self.airInLungs <= 0)
+                    if (!self.room.abstractRoom.shelter)
                     {
-                        self.airInLungs = 0f;
-                        self.Stun(10);
-                        self.drown += 0.008333334f;
-                        if (self.drown >= 1f)
+                        self.airInLungs -= (1f / (!self.lungsExhausted ? 240 : 60)) * Mathf.Lerp(4, 4.5f, inf[0]);
+
+                        if (self.airInLungs <= 0)
                         {
-                            self.Die();
+                            self.airInLungs = 0f;
+                            self.Stun(10);
+                            self.drown += 0.008333334f;
+                            if (self.drown >= 1f)
+                            {
+                                self.Die();
+                            }
+                        }
+                        else
+                        {
+                            if (self.airInLungs < 0.15f)
+                            {
+
+                                self.Blink(5);
+                            }
+                        }
+
+
+                        if (self.airInLungs >= 0.89f)
+                        {
+                            self.airInLungs = 0.89f;
+                            self.lungsExhausted = false;
                         }
                     }
-                    else
-                    {
-                        if (self.airInLungs < 0.15f)
-                        {
 
-                            self.Blink(5);
-                        }
-                    }
-
-
-                    if (self.airInLungs >= 0.89f)
-                    {
-                        self.airInLungs = 0.89f;
-                        self.lungsExhausted = false;
-                    }
+                   
 
                 }
 
