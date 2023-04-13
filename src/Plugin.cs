@@ -137,7 +137,24 @@ namespace spikecat
 
 
 
-                    if (!self.room.abstractRoom.shelter)
+                    if (self.room.abstractRoom.shelter)
+                    {
+                        Room room = self.room;
+
+                        for (int i = 0; i < room.roomSettings.placedObjects.Count; i++)
+                        {
+                            if (room.roomSettings.placedObjects[i].type == PlacedObject.Type.BrokenShelterWaterLevel)
+                            {
+
+                                room.AddWater();
+                                room.waterObject.fWaterLevel = room.roomSettings.placedObjects[i].pos.y;
+                                room.waterObject.originalWaterLevel = room.roomSettings.placedObjects[i].pos.y;
+                            }
+
+                        }
+
+                    }
+                    else
                     {
                         self.airInLungs -= (1f / (!self.lungsExhausted ? 240 : 60)) * Mathf.Lerp(4, 4.5f, inf[0]);
 
