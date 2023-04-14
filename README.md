@@ -24,10 +24,6 @@ This is mostly a big work in progress and **still in its early alpha stages and 
 
 |> [Potential Future Features](https://github.com/FIRECATinBLACK/Spikecat#potential-future-features)
 
-|> [Active Bugs & Issues](https://github.com/FIRECATinBLACK/Spikecat#active-bugs--issues)
-
-|> [Fixed Bugs & Issues](https://github.com/FIRECATinBLACK/Spikecat#fixed-bugs)
-
 |> [Playtesting](https://github.com/FIRECATinBLACK/Spikecat#playtesting)
 
 ### [General Information:](https://github.com/FIRECATinBLACK/Spikecat#general-information)
@@ -99,24 +95,6 @@ This is mostly a big work in progress and **still in its early alpha stages and 
 - Collapsed 5p during a Rivulet worldstate
 - Dream Cutscenes showing Spike's story every 5 cycles and a select few at certain shelters
 
-
-## ACTIVE BUGS & ISSUES:
-3  ) Sometimes the menu art goes black. Cause unknown, needs further investigation. 
-
-## FIXED BUGS:
-1  ) Breath bar doesnt fill entirely (potential fix: change the value at wich it displays as "full" and fades out. Currently that would be 1 wich would cause fixed bug 
-
-|> fixed by setting airInLungs for issue 2 and the value at wich the bar disappears to 0.95 wich also still works
-
-|> Had to be same value as airInLungs but at the same time be one that doesnt send Spike's body flying all across the map
-
----
-
-2  ) Sometimes bodyparts start to disappear and generally physics objects stop rendering correctly. Seems to be a rare occurance, if caused once will happen frequently until game restarts. Cause unknown, assumed to be either with lung issues (jumping in water) or slugbase itself. Needs further investigation.(Probably caused by airInLungs being 1 or more when underwater since value of airInLungs used for calculating some animations which require this value to be lower than 1). 
-
-|> Fixed by changing the max value of airInLungs to be lower than 1 and more or equal to 0. (now 0.95)
-
-|> What caused it was essentially airInLungs being 1 (at this value or higher it messes with the animations for whatever reason) for the sake of the breath bar working correctly, unknowing at the time that 0.95 would be fine too. So whenever Spike would enter a body of water with his breath bar already entirely full (like the head leaving and reentering water within a very short amount of time or hibernating and waking up submerged) he'd first lose his neck and then all other parts of his body except tail also causing all animation of other physics objects and creatures to freeze 
 
 ## PLAYTESTING
 ### Alpha Testing
