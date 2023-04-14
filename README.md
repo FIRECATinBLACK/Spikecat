@@ -119,14 +119,14 @@ This is mostly a big work in progress and **still in its early alpha stages and 
 |> What caused it was essentially airInLungs being 1 (at this value or higher it messes with the animations for whatever reason) for the sake of the breath bar working correctly, unknowing at the time that 0.95 would be fine too. So whenever Spike would enter a body of water with his breath bar already entirely full (like the head leaving and reentering water within a very short amount of time or hibernating and waking up submerged) he'd first lose his neck and then all other parts of his body except tail also causing all animation of other physics objects and creatures to freeze 
 
 ## PLAYTESTING
-#Alpha Testing
+# Alpha Testing
 CURRENT ALPHA VERSION: 1.5.1a
 
 If you are a curious early bird please put your [issues](https://github.com/FIRECATinBLACK/Spikecat/issues) in the format provided by the bugs and issues form and attach any Console and Exception logs if possible. Additionally keep any questions, suggestions or other discussions to the appropiate [discussion](https://github.com/FIRECATinBLACK/Spikecat/discussions) categories.
 
 Please refer to the [How to use Files](https://github.com/FIRECATinBLACK/Spikecat#how-to-use-files) section on how to get the most recent files working ingame.
 
-#Beta Testing
+# Beta Testing
 If youre interested in beta testing please message Egg Yolk#6969 on discord for more information.
 For quality testing I can offer the following rewards:
 - Your name in the contributers section
