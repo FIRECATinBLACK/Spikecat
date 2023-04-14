@@ -119,12 +119,19 @@ This is mostly a big work in progress and **still in its early alpha stages and 
 |> What caused it was essentially airInLungs being 1 (at this value or higher it messes with the animations for whatever reason) for the sake of the breath bar working correctly, unknowing at the time that 0.95 would be fine too. So whenever Spike would enter a body of water with his breath bar already entirely full (like the head leaving and reentering water within a very short amount of time or hibernating and waking up submerged) he'd first lose his neck and then all other parts of his body except tail also causing all animation of other physics objects and creatures to freeze 
 
 ## PLAYTESTING
+#Alpha Testing
+CURRENT ALPHA VERSION: 1.5.1a
 
-If you are a Playtester or curious early bird please put your [issues](https://github.com/FIRECATinBLACK/Spikecat/issues) in a Expected Result, Actual Result, Steps to Replicate, Detailed description / Additional notes format and attach any Console Log, Exception log and Mod log files if possible. Additionally keep any questions, suggestions or other discussions to the appropiate [discussion](https://github.com/FIRECATinBLACK/Spikecat/discussions) categories.
-
-Also note that again since this is alpha and beta testing that theres a chance of things breaking, you likely will not have a entirely smooth playing experience
+If you are a curious early bird please put your [issues](https://github.com/FIRECATinBLACK/Spikecat/issues) in the format provided by the bugs and issues form and attach any Console and Exception logs if possible. Additionally keep any questions, suggestions or other discussions to the appropiate [discussion](https://github.com/FIRECATinBLACK/Spikecat/discussions) categories.
 
 Please refer to the [How to use Files](https://github.com/FIRECATinBLACK/Spikecat#how-to-use-files) section on how to get the most recent files working ingame.
+
+#Beta Testing
+If youre interested in beta testing please message Egg Yolk#6969 on discord for more information.
+For quality testing I can offer the following rewards:
+- Your name in the contributers section
+- Custom art of your slugcat or other non human characters
+- Small amounts of money sent through PayPal up to ~ 5 Euro / 4 USD max. Exact amount will be discussed privately
 
 ---
 # GENERAL INFORMATION
