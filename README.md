@@ -49,6 +49,7 @@ This is mostly a big work in progress and **still in its early alpha stages and 
 - [x] Menu & Sleep art (Temp)
 - [x] Bubble weed on land
 - [x] Longer Cycles
+- [x] Gain air in shelters
 
 
 ## IN PROGRESS:
@@ -58,6 +59,7 @@ This is mostly a big work in progress and **still in its early alpha stages and 
 - [ ] Update ingame art
 - [ ] Add Arena Icons and Cutscenes
 - [ ] Make this README actually look and function better
+- [ ] Add water to all shelters (done all that have a brokenshelterwater level object, a few need to be done manually)
 
 ## TO DO:
 - [ ] Add a Github issues form and move the issues there, then link them here in a more organized way
