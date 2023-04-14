@@ -21,6 +21,7 @@
 		"maul_damage": 5,
 		"spikecat/infAir": [ 0.06, 2.5, 0.01, 1.35, 10 ],
 		"spikecat/bubblegrasslastingtime": 1,
+		"spikecat/addwatertoshelters": true,
 		"food_min": 6,
 		"food_max": 8,
 		"world_state": "rivulet",
