@@ -150,7 +150,7 @@ give me some time to actually write something
 
 ## CREDITS & Contributers:
 - @FIRECATinBLACK - Character and original concept, head of the project and main artist
-- @OneQuish - Helping with most of the bigger coding tasks
+- @OneQuish - Helping with some coding tasks
 ![1955790A-17C2-40E4-82C8-9E46235CE93E](https://user-images.githubusercontent.com/71691122/230751429-910e4572-7066-412e-8383-5f0acd46442c.png)
 ### Generally a huge thanks to any Contributers! This project might not be possible without you
 
