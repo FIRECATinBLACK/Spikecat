@@ -1,0 +1,86 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug or Issue]: Keep this summary short and simple, fit for a readable title "
+labels: ["bug", "triage"]
+assignees:
+  - FIRECATinBLACK
+  - OneQuish
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! Before you get started please search for your problem in the already existing issues to avoid any duplicates!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: I did this and then the game did this and also that was visible and that other thing wasnt right either and it affected the gameplay in this way
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: keep this one organized in a list format and include as many details as possible that could help figure this out
+      placeholder: 1) start a new game, 2) go to this region 3) etc.. > Result
+    validations:
+      required: true
+  - type: dropdown
+    id: mod-version
+    attributes:
+      label: Mod Version
+      description: What version of the Spikecat mod did you use?
+      options:
+        - 1.5.1.a (Public Alpha) 
+        - 1.5.1.b (Beta Tester)
+        - Older than 1.5.1.a
+    validations:
+      required: true
+  - type: input
+    id: rainworld-version
+    attributes:
+      label: Rainworld Version
+      description: What version of RainWorld did you use? (see Options menu, upper left corner)
+      placeholder: v.major.minor.patch
+    validations:
+      required: true
+  - type: checkboxes
+    id: dependencies
+    attributes:
+      label: Mod Dependencies
+      description: Select all the below mods that were used 
+      options:
+        - label: More Slugcats Expansion was enabled
+        - label: Rain World Remix was enabled
+        - label: Slugbase was enabled
+          required: true
+        - label: The Spikecat was enabled
+          required: true
+  - type: textarea
+    id: additional-mods
+    attributes:
+      label: Additional Mods
+      description: If you used any other mods at the time of this happening please list them here, if this doesnt apply simply type "none"
+      placeholder: 1) Drainage Cleaner, 2) Jolly Co-op 3) etc..
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: |
+        Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+        
+        Tip: you can find logs in C:\Program Files (x86)\Steam\steamapps\common\Rain World in the console.log and exception.log files. Please do NOT submit error logs that have been altered by the UwU text mod
+      render: shell 
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: |
+        Links? References? Anything that will give us more context about the issue you are encountering!
+        
+        Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: false
