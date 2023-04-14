@@ -19,6 +19,8 @@ namespace spikecat
 
         public static readonly GameFeature<float> BubbleGrassTime = GameFloat("spikecat/bubblegrasslastingtime");
 
+        public static readonly GameFeature<bool> WaterInShelters = GameBool("spikecat/addwatertoshelters");
+
         // Add hooks
         public void OnEnable()
         {
@@ -30,6 +32,7 @@ namespace spikecat
             On.Lizard.ctor += Lizard_ctor;
             On.Player.LungUpdate += LungAir;
             On.BubbleGrass.Update += CustomBubbleGrass;
+            On.Room.NowViewed += AddWaterr;
         }
         
         // Load any resources, such as sprites or sounds
@@ -94,8 +97,8 @@ namespace spikecat
 
             if (LungIAir.TryGet(self, out float[] inf))
             {
-                //bugs to fix
-                //#none, breathmeter can be full underwater now#//
+               
+                
 
                 
                 //speed dependent on amount of air
@@ -137,25 +140,9 @@ namespace spikecat
 
 
 
-                    if (self.room.abstractRoom.shelter)
+                    if (!self.room.abstractRoom.shelter)
                     {
-                        Room room = self.room;
 
-                        for (int i = 0; i < room.roomSettings.placedObjects.Count; i++)
-                        {
-                            if (room.roomSettings.placedObjects[i].type == PlacedObject.Type.BrokenShelterWaterLevel)
-                            {
-
-                                room.AddWater();
-                                room.waterObject.fWaterLevel = room.roomSettings.placedObjects[i].pos.y;
-                                room.waterObject.originalWaterLevel = room.roomSettings.placedObjects[i].pos.y;
-                            }
-
-                        }
-
-                    }
-                    else
-                    {
                         self.airInLungs -= (1f / (!self.lungsExhausted ? 240 : 60)) * Mathf.Lerp(4, 4.5f, inf[0]);
 
                         if (self.airInLungs <= 0)
@@ -184,6 +171,7 @@ namespace spikecat
                             self.lungsExhausted = false;
                         }
                     }
+                    
 
                    
 
@@ -236,15 +224,31 @@ namespace spikecat
                 }
             }
 
-
-
-
-
-
-
         }
 
+        public void AddWaterr(On.Room.orig_NowViewed orig, Room self)
+        {
+            orig(self);
 
+            if (WaterInShelters.TryGet(self.game, out bool w) && w)
+            {
+                if (self.abstractRoom.shelter)
+                {
+                    for (int i = 0; i < self.roomSettings.placedObjects.Count; i++)
+                    {
+                        if (self.roomSettings.placedObjects[i].type == PlacedObject.Type.BrokenShelterWaterLevel)
+                        {
+
+                            self.AddWater();
+                            self.waterObject.fWaterLevel = self.roomSettings.placedObjects[i].pos.y;
+                            self.waterObject.originalWaterLevel = self.roomSettings.placedObjects[i].pos.y;
+                        }
+
+                    }
+                }
+            }
+
+        }
 
     }
 }
