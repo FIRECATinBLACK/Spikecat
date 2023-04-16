@@ -46,10 +46,10 @@ This is mostly a big work in progress and **still in its early alpha stages and 
 - [x] Slugbase coloring
 - [x] Custom Diet (may need balancing)
 - [x] Can maul + Backspear
-- [x] Menu & Sleep art (Temp)
+- [x] Menu & Sleep art
 - [x] Bubble weed on land
 - [x] Longer Cycles
-- [x] Gain air in shelters
+- [x] Gain air in shelters and 5P's chamber
 
 
 ## IN PROGRESS:
@@ -58,11 +58,11 @@ This is mostly a big work in progress and **still in its early alpha stages and 
 - [ ] Lizard species reputation system
 - [ ] Update ingame art
 - [ ] Add Arena Icons and Cutscenes
-- [ ] Make this README actually look and function better
 - [ ] Add water to all shelters (done all that have a brokenshelterwater level object, a few need to be done manually)
+- [ ] Less breath = less jump height, min max configurable
 
 ## TO DO:
-- [ ] Add a Github issues form and move the issues there, then link them here in a more organized way
+- [ ] Scavengers can spawn with bubbleweed
 - [ ] Add Bubbleweed to all regions
 - [ ] Adjust Water in all regions
 - [ ] Change appearance of all regions (near water)
@@ -75,10 +75,8 @@ This is mostly a big work in progress and **still in its early alpha stages and 
 - [ ] Add Pearl slot in collar
 - [ ] Change Spike's Tail lenght and width
 - [ ] Replace all regular leeches with Jungle ones
-- [ ] Make Spike not suffocate in pebbles chamber 
 
 ## POTENTIAL FUTURE FEATURES:
-- Scavengers can spawn with bubbleweed
 - Config Menu
 - Start in the gate from OE to SB, intro cutscene of unlocking the gate. Player regains control in SB
 - Less breath = Slugcat color change (code could be borrowed from saint. Additionally, preferably only even starts changing color after reaching a configurable number of airInLungs)
@@ -100,7 +98,7 @@ This is mostly a big work in progress and **still in its early alpha stages and 
 
 ## PLAYTESTING
 ### Alpha Testing
-CURRENT ALPHA VERSION: 1.5.1a
+CURRENT ALPHA VERSION: 1.5.3a
 
 If you are a curious early bird please put your [issues](https://github.com/FIRECATinBLACK/Spikecat/issues) in the format provided by the bugs and issues form and attach any Console and Exception logs if possible. Additionally keep any questions, suggestions or other discussions to the appropiate [discussion](https://github.com/FIRECATinBLACK/Spikecat/discussions) categories.
 
