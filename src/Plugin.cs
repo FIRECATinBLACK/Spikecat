@@ -140,7 +140,7 @@ namespace spikecat
 
 
 
-                    if (!self.room.abstractRoom.shelter)
+                    if (!self.room.abstractRoom.shelter && self.room.abstractRoom.name != "SS_AI")
                     {
 
                         self.airInLungs -= (1f / (!self.lungsExhausted ? 240 : 60)) * Mathf.Lerp(4, 4.5f, inf[0]);
