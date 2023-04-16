@@ -24,10 +24,6 @@ This is mostly a big work in progress and **still in its early alpha stages and 
 
 |> [Potential Future Features](https://github.com/FIRECATinBLACK/Spikecat#potential-future-features)
 
-|> [Active Bugs & Issues](https://github.com/FIRECATinBLACK/Spikecat#active-bugs--issues)
-
-|> [Fixed Bugs & Issues](https://github.com/FIRECATinBLACK/Spikecat#fixed-bugs)
-
 |> [Playtesting](https://github.com/FIRECATinBLACK/Spikecat#playtesting)
 
 ### [General Information:](https://github.com/FIRECATinBLACK/Spikecat#general-information)
@@ -53,6 +49,7 @@ This is mostly a big work in progress and **still in its early alpha stages and 
 - [x] Menu & Sleep art (Temp)
 - [x] Bubble weed on land
 - [x] Longer Cycles
+- [x] Gain air in shelters
 
 
 ## IN PROGRESS:
@@ -62,6 +59,7 @@ This is mostly a big work in progress and **still in its early alpha stages and 
 - [ ] Update ingame art
 - [ ] Add Arena Icons and Cutscenes
 - [ ] Make this README actually look and function better
+- [ ] Add water to all shelters (done all that have a brokenshelterwater level object, a few need to be done manually)
 
 ## TO DO:
 - [ ] Add a Github issues form and move the issues there, then link them here in a more organized way
@@ -100,31 +98,20 @@ This is mostly a big work in progress and **still in its early alpha stages and 
 - Dream Cutscenes showing Spike's story every 5 cycles and a select few at certain shelters
 
 
-## ACTIVE BUGS & ISSUES:
-3  ) Sometimes the menu art goes black. Cause unknown, needs further investigation. 
-
-## FIXED BUGS:
-1  ) Breath bar doesnt fill entirely (potential fix: change the value at wich it displays as "full" and fades out. Currently that would be 1 wich would cause fixed bug 
-
-|> fixed by setting airInLungs for issue 2 and the value at wich the bar disappears to 0.95 wich also still works
-
-|> Had to be same value as airInLungs but at the same time be one that doesnt send Spike's body flying all across the map
-
----
-
-2  ) Sometimes bodyparts start to disappear and generally physics objects stop rendering correctly. Seems to be a rare occurance, if caused once will happen frequently until game restarts. Cause unknown, assumed to be either with lung issues (jumping in water) or slugbase itself. Needs further investigation.(Probably caused by airInLungs being 1 or more when underwater since value of airInLungs used for calculating some animations which require this value to be lower than 1). 
-
-|> Fixed by changing the max value of airInLungs to be lower than 1 and more or equal to 0. (now 0.95)
-
-|> What caused it was essentially airInLungs being 1 (at this value or higher it messes with the animations for whatever reason) for the sake of the breath bar working correctly, unknowing at the time that 0.95 would be fine too. So whenever Spike would enter a body of water with his breath bar already entirely full (like the head leaving and reentering water within a very short amount of time or hibernating and waking up submerged) he'd first lose his neck and then all other parts of his body except tail also causing all animation of other physics objects and creatures to freeze 
-
 ## PLAYTESTING
+### Alpha Testing
+CURRENT ALPHA VERSION: 1.5.1a
 
-If you are a Playtester or curious early bird please put your [issues](https://github.com/FIRECATinBLACK/Spikecat/issues) in a Expected Result, Actual Result, Steps to Replicate, Detailed description / Additional notes format and attach any Console Log, Exception log and Mod log files if possible. Additionally keep any questions, suggestions or other discussions to the appropiate [discussion](https://github.com/FIRECATinBLACK/Spikecat/discussions) categories.
-
-Also note that again since this is alpha and beta testing that theres a chance of things breaking, you likely will not have a entirely smooth playing experience
+If you are a curious early bird please put your [issues](https://github.com/FIRECATinBLACK/Spikecat/issues) in the format provided by the bugs and issues form and attach any Console and Exception logs if possible. Additionally keep any questions, suggestions or other discussions to the appropiate [discussion](https://github.com/FIRECATinBLACK/Spikecat/discussions) categories.
 
 Please refer to the [How to use Files](https://github.com/FIRECATinBLACK/Spikecat#how-to-use-files) section on how to get the most recent files working ingame.
+
+### Beta Testing
+If youre interested in beta testing please message Egg Yolk#6969 on discord for more information.
+For quality testing I can offer the following rewards:
+- Your name in the contributers section
+- Custom art of your slugcat or other non human characters
+- Small amounts of money sent through PayPal up to ~ 5 Euro / 4 USD max. Exact amount will be discussed privately
 
 ---
 # GENERAL INFORMATION
@@ -143,7 +130,7 @@ give me some time to actually write something
 
 ## CREDITS & Contributers:
 - @FIRECATinBLACK - Character and original concept, head of the project and main artist
-- @OneQuish - Helping with most of the bigger coding tasks
+- @OneQuish - Helping with some coding tasks
 ![1955790A-17C2-40E4-82C8-9E46235CE93E](https://user-images.githubusercontent.com/71691122/230751429-910e4572-7066-412e-8383-5f0acd46442c.png)
 ### Generally a huge thanks to any Contributers! This project might not be possible without you
 
